@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/mainLayout"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="41dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLogin_title"
+            android:id="@+id/btnLogin"
+            android:layout_gravity="center"
+            android:onClick="onLogin"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right|center_vertical">
+
+        <com.baidu.mapapi.map.MapView android:id="@+id/bmapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnLocate"
+            android:onClick="onLocate"
+            android:background="@drawable/filefind"
+            android:alpha="0.8"
+            android:singleLine="false"
+            android:layout_alignLeft="@+id/bmapView"
+            android:layout_alignBottom="@+id/bmapView"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnCallTaxi"
+            android:onClick="onCallTaxi"
+            android:alpha="0.7"
+            android:background="@drawable/car"
+            android:layout_alignLeft="@+id/bmapView"
+            android:layout_above="@+id/btnLocate"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnCallDriver"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="onCallDriver"
+            android:alpha="0.7"
+            android:background="@drawable/calldriver"
+            android:layout_alignLeft="@+id/bmapView"
+            android:layout_above="@+id/btnCallTaxi"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnShowLog"
+            android:layout_gravity="center"
+            android:onClick="onShowLogs"
+            android:background="@drawable/logs"
+            android:clickable="true"
+            android:layout_alignLeft="@+id/bmapView"
+            android:layout_above="@+id/btnCallDriver"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

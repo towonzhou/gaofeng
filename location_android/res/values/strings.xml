@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Driver</string>
+    <string name="action_settings">设置</string>
+    <string name="info">您现在位置：%1$s \n您的手机号码：%2$s</string>
+    <string name="pinfo">乘客位置：%1$s \n乘客名：%2$s</string>
+    <string name="button">设置</string>
+    <string name="grap">抢单</string>
+    <string name="success"> 抢单成功 </string>
+    <string name="reject">拒单</string>
+    <string name="dialogTitle">10s秒后将自动拒单</string>
+    <string name="dialogMsg">乘客位置：%1$s \n乘客电话:%2$s \n乘客名:%3$s</string>
+    <string name="loc_setting">定位策略：(灰色为不可用策略,菜单键退出)</string>
+    <string name="loc_network">基站定位</string>
+    <string name="loc_passive">passive</string>
+    <string name="loc_gps">GPS定位</string>
+    <string name="loc_lbs">混合定位</string>
+    <string name="loc_cache">缓存定位</string>
+    <string name="loc_priority">定位优先级：</string>
+    <string name="loc_gpsFirst">GPS优先</string>
+    <string name="loc_netWorkFirst">网络优先</string>
+    <string name="menu_exit">退出</string>
+
+</resources>

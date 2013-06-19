@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Driver</string>
+    <string name="action_settings">设置</string>
+    <string name="info">您现在位置：%1$s \n您的手机号码：%2$s</string>
+    <string name="pinfo">乘客位置：%1$s \n乘客名：%2$s</string>
+    <string name="button">定位</string>
+    <string name="grap">抢单</string>
+    <string name="success"> 抢单成功 </string>
+    <string name="reject">拒单</string>
+    <string name="dialogTitle">10s秒后将自动拒单</string>
+    <string name="dialogMsg">乘客位置：%1$s \n乘客电话:%2$s \n乘客名:%3$s</string>
+
+</resources>

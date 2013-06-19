@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loc_setting"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/loc_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/loc_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loc_network" />
+
+        <RadioButton
+            android:id="@+id/loc_passive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loc_passive" />
+
+        <RadioButton
+            android:id="@+id/loc_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loc_gps" />
+
+        <RadioButton
+            android:id="@+id/loc_lbs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loc_lbs" />
+    </RadioGroup>
+
+</LinearLayout>

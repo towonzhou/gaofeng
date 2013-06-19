@@ -1,0 +1,17 @@
+#map {
+    height: 100%;
+}
+
+.ui-dialog .ui-listview {
+    max-height: 400px;
+}
+
+.in {
+    -webkit-animation-fill-mode: none;
+    -moz-animation-fill-mode: none;
+  }
+
+.out {
+    -webkit-animation-fill-mode: none;
+    -moz-animation-fill-mode: none;
+}

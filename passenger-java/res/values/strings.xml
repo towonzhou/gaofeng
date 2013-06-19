@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PassengerJ</string>
+    <string name="btnCallTaxi_title">Call Taxi</string>
+    <string name="btnCallTaxi_title_wait">Waiting...</string>
+    <string name="btnCallTaxi_title_reject">Rejected</string>
+    <string name="btnCallTaxi_title_done">Got Taxi!</string>
+    <string name="btnLocate_title">Locate</string>
+    <string name="btnCallDriver_title">Call Driver</string>
+    <string name="btnShowLog_title">Logs</string><string name="btnLogin_title">Login</string>
+</resources>
